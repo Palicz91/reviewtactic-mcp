@@ -9,6 +9,7 @@ ranking. No account, no API key, nothing to install.
 - **Docs:** https://reviewtactic.com/mcp/
 - **Privacy:** https://reviewtactic.com/privacy/#mcp-server
 - **Contact:** hello@reviewtactic.com
+- **Author:** [Adam Palicz](https://reviewtactic.com/resources/authors/adam-palicz/), co-founder of ReviewTactic ([LinkedIn](https://www.linkedin.com/in/adampalicz/))
 
 This repository holds the documentation and the registry file. The server itself runs on
 ReviewTactic's infrastructure.
@@ -70,3 +71,10 @@ claude mcp add --transport http reviewtactic https://api.reviewtactic.com/functi
 The server reads public Google data about the business you name. It keeps a usage record per call
 (tool, time, calling address for 30 days). An email address is stored only when you ask for the
 report by email. Details: https://reviewtactic.com/privacy/#mcp-server
+
+## Who is behind it
+
+The server is built and maintained by [Adam Palicz](https://reviewtactic.com/resources/authors/adam-palicz/),
+co-founder of [ReviewTactic](https://reviewtactic.com/), where he leads product development.
+ReviewTactic makes Google review tools for local businesses. Questions and bug reports:
+hello@reviewtactic.com.
