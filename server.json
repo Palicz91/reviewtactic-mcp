@@ -1,0 +1,9 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Palicz91/reviewtactic-mcp",
+  "title": "ReviewTactic — Google Review Checker",
+  "description": "Check a business's Google reviews for rule-breaking negative reviews and its Google Maps rank.",
+  "version": "1.0.0",
+  "repository": { "url": "https://github.com/Palicz91/reviewtactic-mcp", "source": "github" },
+  "remotes": [{ "type": "streamable-http", "url": "https://api.reviewtactic.com/functions/v1/mcp" }]
+}
